@@ -1,10 +1,11 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
     return (
-        <div className="ui fixed menu">
+        <div className=" ui fixed menu">
             <div className="ui container center">
-                <h2> SAM SHOP </h2>
+                <h2 className="Header">Online Market </h2>
             </div>
         </div>
     );

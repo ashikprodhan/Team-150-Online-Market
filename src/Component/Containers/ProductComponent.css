@@ -1,0 +1,8 @@
+.product:hover{
+    text-decoration: none;
+    color:forestgreen;
+    font-family: 'Merriweather', serif;
+}
+.product{
+    font-family: 'Merriweather', serif;
+}
