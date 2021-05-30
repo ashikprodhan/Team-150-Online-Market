@@ -26,8 +26,8 @@ const ProductDetail = () => {
 
     const imageStyle = { width:'50%', margin: "10px auto", padding: "10px auto", borderRedius: "100px"}
     return (
-        <div className="product mt-5">
-          <div className="ui grid container mt-5">
+       
+          <div className="product ui grid container mt-5">
         {Object.keys(product).length === 0 ? (
           <div>...Loading</div>
         ) : (
@@ -57,7 +57,7 @@ const ProductDetail = () => {
           </div>
         )}
       </div>
-        </div>
+        
     );
 };
 
